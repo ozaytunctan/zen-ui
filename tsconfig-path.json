@@ -9,6 +9,11 @@
       "@zen-ui/button": [
         "./projects/zen-ui/src/button"
       ],
+
+      "@zen-ui/icon": [
+        "./projects/zen-ui/src/icon"
+      ],
+
       "@zen-ui/core/*": [
         "./projects/zen-ui/src/core/*"
       ],

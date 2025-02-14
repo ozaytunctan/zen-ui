@@ -1,10 +1,11 @@
 import {Component} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
 import {ZenAnchor, ZenButton} from '@zen-ui/button';
+import {ZenIcon} from '@zen-ui/icon';
 
 @Component({
   selector: 'zen-root',
-  imports: [RouterOutlet, ZenButton, ZenAnchor],
+  imports: [RouterOutlet, ZenButton, ZenAnchor,ZenIcon],
   template: `
     <h1>ZEN UI DEMO BUTTONS</h1>
     <button zen-button
@@ -16,6 +17,7 @@ import {ZenAnchor, ZenButton} from '@zen-ui/button';
     <button zen-button
             color="secondary" disabled>
       Zen secondary
+      <zen-icon> home</zen-icon>
     </button>
 
     <a zen-button
