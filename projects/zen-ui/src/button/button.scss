@@ -1,0 +1,35 @@
+@use "sass:map";
+@use "sass:math";
+@use '../core/style/mixins' as m;
+@use '../core/style/variables' as v;
+
+button {
+  width: 200px;
+  height: 40px;
+
+  &.zen-primary {
+    @include m.zen_button(
+        v.$zen-primary-color
+    );
+
+    &:hover {
+
+    }
+  }
+
+  &.zen-secondary {
+    @include m.zen_button(
+        v.$zen-secondary-color
+    );
+  }
+
+}
+
+
+buttton[zen-raised-button] {
+
+}
+
+buttton[zen-stroked-button] {
+
+}

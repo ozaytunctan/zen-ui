@@ -1,0 +1,15 @@
+$zen-primary-color: #30ff;
+$zen-secondary-color: #29ff;
+$zen-warning-color: #ff4500;
+$zen-danger-color: #ff4500;
+$zen-info-color: #28ff;
+
+
+$color_palette:(
+  primary: $zen-primary-color,
+  secondary: $zen-primary-color,
+  danger: $zen-secondary-color,
+  warning: $zen-warning-color,
+  info: $zen-warning-color,
+);
+

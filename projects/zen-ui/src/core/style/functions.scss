@@ -1,0 +1,14 @@
+@function get($map_values,$key,$default:null) {
+
+  @if $key==null {
+    @return $default;
+  }
+
+  @each $name, $value in $map_values {
+    @if $name == $key {
+      @return $value;
+    }
+  }
+
+  @return $default;
+}

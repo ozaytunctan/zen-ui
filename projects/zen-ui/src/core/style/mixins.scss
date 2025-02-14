@@ -1,0 +1,9 @@
+
+
+
+@mixin zen_button($color,$bgColor:null) {
+  color: $color;
+  @if $bgColor!=null {
+    background-color: $bgColor;
+  }
+}
